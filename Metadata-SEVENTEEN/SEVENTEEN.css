@@ -1,0 +1,20 @@
+/*
+* Crystal Zheng
+* March 28, 2018
+* Intro CSS
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+    background-color: blue;
+    color: pink;
+
+}
