@@ -14,7 +14,18 @@
 /* Put body attributes here */
 
 body { 
-    background-color: blue;
-    color: pink;
+    background-color: pink;
+    color: white;
+    font-family: Arial, Henlvetica, sans-serif;
+    font-size: 87.5%;
 
 }
+h1 {
+   font-size: 150%;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline overline;
+}
+
+.left{float:left;}
+#next_para{clear:left;}
