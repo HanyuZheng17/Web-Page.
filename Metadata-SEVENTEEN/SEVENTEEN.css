@@ -18,7 +18,6 @@ body {
     color: white;
     font-family: Arial, Henlvetica, sans-serif;
     font-size: 87.5%;
-
 }
 h1 {
    font-size: 150%;
@@ -26,6 +25,13 @@ h1 {
    text-transform: uppercase;
    text-decoration: underline overline;
 }
-
+h2{
+  background-color: blue;
+}
+P{
+ background-color: white;
+ color: blue;
+}
+ 
 .left{float:left;}
 #next_para{clear:left;}
