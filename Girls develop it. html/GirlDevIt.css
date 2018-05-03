@@ -1,0 +1,34 @@
+/*
+* Crystal Zheng
+* March 28, 2018
+* Intro CSS
+*/
+
+/*change the background color*/
+header{
+     background-color: #ff6666;
+     text-align: center;}
+
+h2,h3{
+    font-family: Apple Chancery, cursive;
+    text-decoration: underline;}
+
+main{
+ font-family: Arial;}
+    
+body{
+    background-color: #ffe6e6;}
+/*keep the pictures on the right side*/    
+.pictures{
+     float: right;
+}
+#container{clear: right;}
+
+/*set the link color*/
+a:link{
+     color: #4d4dff;}
+/*this changes the size when you put mouse on it */
+a:hover, a:focus{
+     font-size: 150%;
+     color: #ff4dff;}
+     
