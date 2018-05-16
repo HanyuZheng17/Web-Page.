@@ -1,0 +1,67 @@
+/*
+* Crystal Zheng
+* March 28, 2018
+* Intro CSS
+*/
+
+*{		 margin: 0;
+         padding: 0;} 
+
+/*set the background color*/
+body{
+	background: #00FF7F;}
+main{
+	border-top: 3px solid #191970;
+	border-bottom: 3px solid #191970;
+	padding-bottom:6em;
+	}
+	
+/*Let the title in the center*/
+h1{
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+	margin:.5em 2em .5em 1em;}
+h2{
+    font-family: Apple Chancery, cursive;
+    color: #006400;
+    text-decoration: underline;}
+  
+.pictures{
+	 height: 200px;
+	 width: 300px;
+	 }
+/*keep the pictures on the left side*/
+#container{clear: left;}
+
+/* set the border around the pictures */
+.image{
+	   height:250px;
+	   width:350px;
+	   height, width: auto;
+	   border: 2px dotted black;
+	   padding: 5px 10px 2px 10px;
+	   margin: .5em 2em .5em 2em;
+}
+
+.photos{
+       height:150px;
+	   width:300px;
+	   border: 2px solid green;
+	   padding: 5px 10px 2px 10px;
+	   margin: .5em 2em .5em 2em;
+	   float: left;
+}
+/* keep the picture on the left side*/
+.photo{
+       clear: left;
+  }
+footer{
+	margin:1em;}
+
+#bottom-right{
+	float: right;}
+
+
+
