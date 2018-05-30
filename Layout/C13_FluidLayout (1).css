@@ -1,0 +1,104 @@
+/* Crystal Zheng
+*  May 18, 2018 
+*  C13 Fluid Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*set the background color in header and make it in the center*/
+header {
+    border-bottom: 2px solid #ef9c00;
+    background-color: #F5DEB3;}
+
+/*set the size of the main column*/
+body {
+    width: 95%;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+/*set the font family of the title*/
+h1 {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    color:#000080;
+    margin:.5em 2em .5em 1em;
+}
+
+h2{
+ margin:.5em 2em .5em 1em;
+ text-decoration: underline;
+ color: #000080;
+ }
+
+p{
+ margin:.5em 2em .5em 1em;}
+/*set the size, background color and the place of the column*/
+#sidebarA {
+    text-align: center;
+    width: 20%;
+    height: 500px;
+    float: left;
+    border-right: 2px solid #ef9c00;
+    background-color: #FFEFD5;}
+/*make sure the dots are not over the border*/
+ul{
+  margin:.5em 1em .5em 1em;}
+
+main {
+    width: 59%;
+    height:500px;
+    float: left;
+    background-color: #FFF5EE;
+}
+/*set the size, background color and the place of the column*/
+#sidebarB {
+    text-align:center;
+    width: 20%;
+    height: 500px;
+    float: right;
+    border-left: 2px solid #ef9c00;
+    background-color: #FFEFD5;
+}
+
+.photos{
+       height:150px;
+	   width:150px;
+	   border: 2px solid #0000FF;
+	   padding: 5px 5px 5px 5px;
+	   margin: .5em 2em .5em 2em;
+	   float: left;
+}
+
+.picture{
+       height:140px;
+	   width:140px;
+	   border: 2px solid #0000FF;
+	   padding: 5px 5px 5px 5px;
+	   margin: .5em 2em .5em 2em;
+	   float: right;
+}
+.image{
+	   height:160px;
+	   width:170px;
+	   border: 2px dotted #0000FF;
+	   padding: 5px 5px 5px 5px;
+	   margin: .5em 2em .5em 2em;
+	   }
+/*put the picture on the left and make the words around it*/
+.photos{
+       clear: left;}
+/*put the picture on the right and make the words around it*/
+.picture{
+		clear: right;
+  }     
+footer {
+    clear: both;
+    border-top: 2px solid #ef9c00;
+}
+#bottom-right{
+	float: right;
+	color: #FF4500;}
